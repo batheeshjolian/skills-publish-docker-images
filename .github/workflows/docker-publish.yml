@@ -25,4 +25,3 @@ jobs:
       - name: Build and push Docker image
         run: |
           docker build --tag ghcr.io/batheeshjolian/skills-publish-docker-images/stackoverflow:main .
-          docker push ghcr.io/batheeshjolian/skills-publish-docker-images/stackoverflow:main
